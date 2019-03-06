@@ -1,0 +1,89 @@
+body{
+	position: relative;
+	margin: 0px;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #333;
+}
+
+.container{
+	width: 100%;
+    margin: auto;
+}
+
+#navbar{
+	z-index: 2;
+	position: fixed;
+	top: 0px;
+	color:black;
+    background-color:white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	box-shadow: 10px 10px 4px rgba(0,0,0,0.12);
+}
+
+#brand{
+    font-weight: bolder;
+}
+.leftnavwords{
+    float: left;
+    margin-left: 100px;
+}
+.rightnavwords{
+    float: right;
+    margin-right: 100px;
+}
+
+#splash{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    box-shadow: 10px 10px 4px rgba(0,0,0,0.12);
+}
+
+#artistimage{
+    height: 190%;
+    width: 100%;   
+}
+
+#artistname{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+
+#artistname{
+    font-size: 700;
+}
+
+.rows{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.imagecontainer{
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+.albumimage{
+    top: 50%;
+    width: 180px;
+    height: 180px;
+
+}
+
+#albumlisting .container{
+    position: absolute;
+    margin-left: 100px;
+    top: 50%;
+    bottom: 80%;
+}
+
