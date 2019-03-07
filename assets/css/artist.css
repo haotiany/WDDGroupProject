@@ -1,7 +1,7 @@
 body{
 	position: relative;
 	margin: 0px;
-	font-family: 'Helvetica', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	font-weight: 500;
 	color: #333;
@@ -27,6 +27,12 @@ body{
 #brand{
     font-weight: bolder;
 }
+
+#brand:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 .leftnavwords{
     float: left;
     margin-left: 100px;
@@ -46,6 +52,7 @@ body{
 }
 
 #artistimage{
+    transform: translateY(-70px);
     height: 190%;
     width: 100%;   
 }
@@ -53,37 +60,42 @@ body{
 #artistname{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
     color: aliceblue;
+    font-size: 150px;
+    font-weight: 700px;
 }
 
-#artistname{
-    font-size: 700;
+#albumtxt{
+    margin-left: 5px;
+    padding: 0px 0px 10px 5px;
+    font-size: 30px;
+    font-weight: 700px;
+    color: black;    
 }
 
 .rows{
-    margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .imagecontainer{
     height: 150px;
     width: 150px;
-    border-radius: 10%;
     overflow: hidden;
+    border-radius: 10%;
+    box-shadow: 5px 5px 4px rgba(0,0,0,0.12);
 }
+
 .albumimage{
-    top: 50%;
-    width: 180px;
-    height: 180px;
-
+    width: 150px;
+    height: 150px;
 }
 
-#albumlisting .container{
+#albumlisting{
     position: absolute;
-    margin-left: 100px;
-    top: 50%;
+    margin-left: 150px;
+    top: 450px;
     bottom: 80%;
 }
 
