@@ -59,6 +59,11 @@ body, html {
 	font-family: 'Fredericka the Great';
 }
 
+#title em {
+	font-style: normal;
+	color: #702283;
+}
+
 #content input[type=text] {
 	height: 50px;
 	width: 450px;
