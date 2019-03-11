@@ -1,0 +1,89 @@
+body, html {
+	margin: 0px;
+	font-family: "Raleway";
+	background: #EAEAEA;
+	/*background: #f7f5f2;*/
+}
+
+#initial-screen {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	padding: 20px;
+}
+
+#topnav {
+	height: 60px;
+	/* background: #ffff; */
+}
+
+#logo {
+	float: left;
+	padding: 0px 10px;
+}
+
+#scaled-logo {
+	height: 15%;
+	width: 15%;
+	cursor: pointer;
+}
+
+#contact {
+	float: right;
+	padding: 10px 20px;
+	font-size: 15px;
+}
+
+#contact:hover {
+	cursor: pointer;
+	opacity: 0.6;
+	transition-duration: 400ms;
+}
+
+#content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-60%) translateX(-50%);
+	height: 200px;
+	width: 700px;
+	/*background: #fff;*/
+}
+
+#title {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 3%;
+	font-size: 42px;
+	font-weight: 500;
+	float: left;
+}
+
+#content input[type=text] {
+	height: 50px;
+	width: 450px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 30%;
+	float: left;
+	background: #fff;
+	border: 2px groove #D5D5D5;
+	opacity: 0.5;
+	padding: 0 10px;
+	font-style: italic;
+	font-size: 16px;
+	outline: none;
+}
+
+#content input[type=text]:focus {
+	border: 3px groove #702283;
+	font-style: normal;
+}
+
+.scroll-more-prompt {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translateX(-50%);
+}
