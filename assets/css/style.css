@@ -5,13 +5,15 @@ body, html {
 }
 
 #initial-screen {
-	position: absolute;
-	top: 0; right: 0; bottom: 0; left: 0;
+	height: 100vh;
+	width: 100vw;
 	padding: 20px;
 }
 
 #topnav {
 	height: 60px;
+	position: fixed;
+	width: 100%;
 	/* background: #ffff; */
 }
 
@@ -28,7 +30,7 @@ body, html {
 
 #contact {
 	float: right;
-	padding: 10px 20px;
+	padding: 10px 50px;
 	font-size: 15px;
 }
 
@@ -36,6 +38,42 @@ body, html {
 	cursor: pointer;
 	opacity: 0.6;
 	transition-duration: 400ms;
+}
+
+#follow {
+	position: fixed;
+	top: 20%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	width: 30px;
+	justify-content: center;
+	align-items: center;
+	/*background: #fff;*/
+}
+
+.follow-child {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 30px;
+	/*border: solid #D5D5D5;*/
+	margin: 15px;
+}
+
+.scaled-follow {
+	height: 70%;
+	width: auto;
+}
+
+.scaled-follow:hover {
+	cursor: pointer;
+	transition-duration: 500ms;
+	opacity: .7;
+	transform: scale(1.2);
 }
 
 #content {
@@ -54,7 +92,7 @@ body, html {
 	transform: translateY(-50%);
 	left: 3%;
 	font-size: 42px;
-	font-weight: 500;
+	font-weight: 300;
 	float: left;
 	font-family: 'Fredericka the Great';
 }
@@ -82,17 +120,41 @@ body, html {
 }
 
 #content input[type=text]:focus {
-	border: 3px groove #702283;
+	border: 3px groove #C6A1D0;
 	font-style: normal;
 }
 
-.scroll-more-prompt {
+#scroll-more-prompt {
 	position: absolute;
 	top: 85%;
 	left: 50%;
 	transform: translateX(-50%);
+	height: 60px;
+	width: 400px;
+	/*background: #ffff;*/
+}
+
+#prompt-text {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#arrow {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-8%);
+	top: 40%;
+	opacity: .6;
+}
+
+#scaled-arrow {
+	height: 16%;
+	width: 16%;
 }
 
 #rest {
-
+	height: auto;
+	width: 100%;
+	background: #fff;
 }
