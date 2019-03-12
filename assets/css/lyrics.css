@@ -68,13 +68,14 @@ body, html {
 #scaled-img {
 	height: 70%;
 	width: auto;
+  opacity: 0.75;
 }
 
 #scaled-img:hover {
 	cursor: pointer;
 	transition-duration: 500ms;
-	opacity: .7;
-	transform: scale(1.2);
+	transform: scale(1.4);
+  opacity: 1;
 }
 
 #scaled-img:active {
@@ -86,17 +87,13 @@ body, html {
   height: auto;
 }
 
-#down img {
-  -webkit-transform: scale(-1, -1);
-}
-
 #name {
-  transition-duration: 0.75s;
+  transition-duration: 0.5s;
 }
 
 #name:hover {
   color: #702283;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 #song_description {
