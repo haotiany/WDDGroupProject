@@ -129,3 +129,7 @@ body:not(#topbar) {
   color: #702283;
   opacity: 0.6;
 }
+
+#title {
+  font-size: 14px;
+}
