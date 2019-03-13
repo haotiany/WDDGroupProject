@@ -98,7 +98,7 @@ body:not(#topbar) {
 
 #name:hover {
   color: #702283;
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
 #columns {
@@ -127,5 +127,5 @@ body:not(#topbar) {
 
 #text_content:hover {
   color: #702283;
-  opacity: 0.75;
+  opacity: 0.6;
 }
