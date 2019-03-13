@@ -88,7 +88,7 @@ body, html {
 }
 
 #name {
-  transition-duration: 0.5s;
+  transition-duration: 0.25s;
 }
 
 #name:hover {
