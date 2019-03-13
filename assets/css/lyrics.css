@@ -17,6 +17,7 @@ body, html {
   height: 60px;
 	position: fixed;
 	width: 100%;
+  background: #EAEAEA;
 }
 
 #logo {
@@ -45,8 +46,8 @@ body, html {
 }
 
 #album_cover {
-  width: 225px;
-  height: 225px;
+  width: 250px;
+  height: 250px;
 }
 
 #album_cover img {
@@ -93,7 +94,7 @@ body, html {
 
 #name:hover {
   color: #702283;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 #song_description {
@@ -101,7 +102,7 @@ body, html {
   position: fixed;
   display: flex;
   align-items: center;
-  transform: translate(23%, 108%);
+  transform: translate(22%, 88%);
 }
 
 #text_content {
