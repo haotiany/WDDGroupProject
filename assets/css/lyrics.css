@@ -72,16 +72,16 @@ body, html {
 
 #star2, #up2, #down2 {
   opacity: 0;
-  transition: opacity 200s ease-in-out;
-  -moz-transition: opacity 200ms ease-in-out;
-  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 160s ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
 }
 
 #star2:hover, #up2:hover, #down2:hover {
   opacity: .5;
-  transition: opacity 200ms ease-in-out;
-  -moz-transition: opacity 200ms ease-in-out;
-  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 160ms ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
 }
 
 #star2:active, #up2:active, #down2:active {
