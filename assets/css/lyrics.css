@@ -75,8 +75,12 @@ body, html {
 }
 
 #star2:hover, #up2:hover, #down2:hover {
-  opacity: 1;
+  opacity: .5;
   transition-duration: 500ms;
+}
+
+#star2:active, #up2:active, #down2:active {
+  opacity: 1;
 }
 
 #scaled-img {
