@@ -90,10 +90,11 @@ body, html {
 
 #name {
   transition-duration: 0.25s;
+  color: #702283;
+  cursor: pointer;
 }
 
 #name:hover {
-  color: #702283;
   opacity: 0.5;
 }
 
