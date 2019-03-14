@@ -1,0 +1,135 @@
+a:link, a:visited {
+  color: #702283;
+  text-decoration: none;
+  cursor: auto;
+}
+
+a:link:active, a:visited:active {
+  color: #702283;
+}
+
+body, html {
+  background: #EAEAEA;
+  font-family: 'Raleway';
+}
+
+body:not(#topbar) {
+  margin-left: 32px;
+}
+
+#topbar {
+  height: 60px;
+	position: fixed;
+	width: 100%;
+  background: #EAEAEA;
+  margin-top: -25px;
+  padding: 10px 0px;
+}
+
+#logo {
+  float: left;
+	padding: 0px 10px;
+  transform: translate(-3.25%, 50%);
+}
+
+#scaled-logo {
+	height: 15%;
+	width: 15%;
+	cursor: pointer;
+}
+
+#contact {
+	float: right;
+	padding: 10px 50px;
+	font-size: 15px;
+  transform: translate(-6.2%, 17.6%);
+}
+
+#contact:hover {
+	cursor: pointer;
+	opacity: 0.6;
+	transition-duration: 400ms;
+}
+
+#everything {
+  padding-top: 72px;
+}
+
+#pic {
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition-duration: 0.25s;
+}
+
+#pic:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#album-cover {
+  width: 150px;
+  height: 150px;
+  padding: 30px 32px;
+  cursor: pointer;
+}
+
+#album-cover img {
+  width: 100%;
+  height: auto;
+  border-radius: 28px;
+}
+
+#label {
+  font-size: 20px;
+}
+
+#description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 32px;
+}
+
+#name {
+  padding-left: 40px;
+  font-size: 18px;
+  transition-duration: 0.25s;
+}
+
+#name:hover {
+  color: #702283;
+  opacity: 0.6;
+}
+
+#columns {
+  display: flex;
+  flex-direction: row;
+}
+
+#first-col, #second-col {
+  display: flex;
+  flex-direction: column;
+  padding-right: 75px;
+}
+
+#stargazing, #kids-in-love, #stay, #firestone {
+  display: flex;
+  flex-direction: row;
+}
+
+#text_content {
+  margin-top: 68px;
+  line-height: 8px;
+  transition-duration: 0.25s;
+  cursor: pointer;
+  padding-left: 8px;
+}
+
+#text_content:hover {
+  color: #702283;
+  opacity: 0.6;
+}
+
+#title {
+  font-size: 14px;
+}
