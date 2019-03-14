@@ -51,16 +51,6 @@ body:not(#topbar) {
 	transition-duration: 400ms;
 }
 
-#result {
-  font-family: 'Fredericka the Great';
-  font-size: 18px;
-}
-
-#result em {
-	font-style: normal;
-	color: #702283;
-}
-
 #everything {
   padding-top: 72px;
 }
