@@ -57,13 +57,26 @@ body, html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#buttons {
+#unfilled, #filled {
   background: transparent;
   border: none;
   display: flex;
-  width: 120px;
+  width: 132px;
   height: 30px;
   cursor: pointer;
+}
+
+#filled {
+  transform: translateY(-100%);
+}
+
+#star2, #up2, #down2 {
+  opacity: 0;
+}
+
+#star2:hover, #up2:hover, #down2:hover {
+  opacity: 1;
+  transition-duration: 500ms;
 }
 
 #scaled-img {
@@ -74,13 +87,8 @@ body, html {
 
 #scaled-img:hover {
 	cursor: pointer;
-	transition-duration: 500ms;
-	transform: scale(1.4);
+  transition-duration: 500ms;
   opacity: 1;
-}
-
-#scaled-img:active {
-  background-color: #702283;
 }
 
 #buttons img {
