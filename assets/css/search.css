@@ -14,7 +14,7 @@ body, html {
 }
 
 body:not(#topbar) {
-  margin-left: 24px;
+  margin-left: 32px;
 }
 
 #topbar {
@@ -29,7 +29,7 @@ body:not(#topbar) {
 #logo {
   float: left;
 	padding: 0px 10px;
-  transform: translate(-1.125%, 50%);
+  transform: translate(-3.25%, 50%);
 }
 
 #scaled-logo {
@@ -42,13 +42,23 @@ body:not(#topbar) {
 	float: right;
 	padding: 10px 50px;
 	font-size: 15px;
-  transform: translate(-2%, 17.6%);
+  transform: translate(-6.2%, 17.6%);
 }
 
 #contact:hover {
 	cursor: pointer;
 	opacity: 0.6;
 	transition-duration: 400ms;
+}
+
+#result {
+  font-family: 'Fredericka the Great';
+  font-size: 18px;
+}
+
+#result em {
+	font-style: normal;
+	color: #702283;
 }
 
 #everything {
