@@ -1,9 +1,137 @@
 <!DOCTYPE html>
 <html>
 	<head>
-
+		<title>Artist View</title>
+		<link rel="shortcut icon" href="assets/img/logo.png">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/artist.css">
 	</head>
 	<body>
-
+		<div>
+			<div class="mainhead">
+				<div class="decoration"></div> == 0$
+				<div id="navbar">
+					<div id="leftside">
+						<div id="logo" >
+							<div id="brand">
+								<a href="index.html"><img id="scaled-logo" src="assets/img/logo.png"></a>
+							</div>
+						</div>
+					</div>
+					<div id="rightside">
+						<div class="rightnavwords">Search</div>
+					</div>
+				</div>
+			</div>
+			<div id="mainpage">
+				<div id="splash">
+					<img id="artistimage" src="assets/img/a1.png">
+					<div id="artistname">Kygo</div>
+				</div>
+			</div>
+			<div id="albumlisting">
+				<div id="container">
+					<div class="headings">Albums</div>
+					<div class="rows">
+						<div class="imagecontainer"><img class="albumimage" src="assets/img/a2.png"></div>
+						<div class="listing">
+							<div class="albumheading">
+								<div class="albumyear">2017</div>
+								<div class="albumname">Stargazing</div>
+							</div>
+							<div id="thesongs">
+								<table>
+									<tr><td id="topsong" class="song">Stargazing</td></tr>
+									<tr><td class="song">It Ain't Me</td></tr>
+									<tr><td class="song">First Time</td></tr>
+								</table>
+								<table id="hidden1">
+									<tr><td class="song">It Ain't Me</td></tr>
+									<tr><td class="song">First Time</td></tr>
+								</table>
+								<button id="button1" onclick="myFunction1()">SHOW MORE</button>
+							</div>
+						</div>	
+					</div>
+					<div class="rows">
+						<div class="imagecontainer"><img class="albumimage" src="assets/img/a3.png"></div>
+						<div class="listing">
+								<div class="albumheading">
+									<div class="albumyear">2017</div>
+									<div class="albumname">Kids in Love</div>
+								</div>
+								<div id="thesongs">
+									<table>
+										<tr><td id="topsong" class="song">Stargazing</td></tr>
+										<tr><td class="song">It Ain't Me</td></tr>
+										<tr><td class="song">First Time</td></tr>
+									</table>
+									<table id="hidden2">
+										<tr><td class="song">It Ain't Me</td></tr>
+										<tr><td class="song">First Time</td></tr>
+									</table>
+									<button id="button2" onclick="myFunction2()">SHOW MORE</button>
+								</div>
+							</div>	
+					</div>
+					<div class="rows">
+						<div class="imagecontainer"><img class="albumimage" src="assets/img/a4.png"></div>
+						<div class="listing">
+								<div class="albumheading">
+									<div class="albumyear">2016</div>
+									<div class="albumname">Cloud Nine</div>
+								</div>
+								<div id="thesongs">
+									<table>
+										<tr><td id="topsong" class="song">Stargazing</td></tr>
+										<tr><td class="song">It Ain't Me</td></tr>
+										<tr><td class="song">First Time</td></tr>
+									</table>
+									<table id="hidden3">
+										<tr><td class="song">It Ain't Me</td></tr>
+										<tr><td class="song">First Time</td></tr>
+									</table>
+									<button id="button3" onclick="myFunction3()">SHOW MORE</button>
+								</div>
+							</div>	
+					</div>
+				</div>
+			</div>
+			<div class="othersonglisting">
+				<div class="headings">Other Songs</div>
+				<div class="rows">
+				</div>
+			</div>
+		</div>
+		<script>
+			function myFunction1() {
+				var x = document.getElementById("hidden1"), y = document.getElementById("button1");
+				if (x.style.display === "none") {
+				x.style.display = "block";
+				y.style.display = "none";
+				} else {
+				x.style.display = "none";
+				}
+			}
+			function myFunction2() {
+				var x = document.getElementById("hidden2"), y = document.getElementById("button2");
+				if (x.style.display === "none") {
+				x.style.display = "block";
+				y.style.display = "none";
+				} else {
+				x.style.display = "none";
+				}
+			}
+			function myFunction3() {
+				var x = document.getElementById("hidden3"), y = document.getElementById("button3");
+				if (x.style.display === "none") {
+				x.style.display = "block";
+				y.style.display = "none";
+				} else {
+				x.style.display = "none";
+				}
+			}
+		</script>
 	</body>
 </html>

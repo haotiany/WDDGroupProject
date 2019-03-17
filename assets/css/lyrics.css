@@ -1,0 +1,141 @@
+a:link, a:visited {
+  color: #702283;
+  text-decoration: none;
+  cursor: auto;
+}
+
+a:link:active, a:visited:active {
+  color: #702283;
+}
+
+body, html {
+  background: #EAEAEA;
+  font-family: 'Raleway';
+}
+
+#topbar {
+  height: 80px;
+	position: fixed;
+	width: 100%;
+  background: #EAEAEA;
+}
+
+#logo {
+  float: left;
+	padding: 0px 10px;
+  transform: translate(3.25%, 22%);
+}
+
+#scaled-logo {
+	height: 15%;
+	width: 15%;
+	cursor: pointer;
+}
+
+#contact {
+	float: right;
+	padding: 10px 50px;
+	font-size: 15px;
+  transform: translate(6.25%, -4.75%);
+}
+
+#contact:hover {
+	cursor: pointer;
+	opacity: 0.6;
+	transition-duration: 400ms;
+}
+
+#album_cover {
+  width: 250px;
+  height: 250px;
+}
+
+#album_cover img {
+  width: 100%;
+  height: auto;
+  border-radius: 28px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#unfilled, #filled {
+  background: transparent;
+  border: none;
+  display: flex;
+  width: 132px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#filled {
+  transform: translateY(-100%);
+}
+
+#star2, #up2, #down2 {
+  opacity: 0;
+  transition: opacity 160s ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
+}
+
+#star2:hover, #up2:hover, #down2:hover {
+  opacity: .5;
+  transition: opacity 160ms ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
+}
+
+#star2:active, #up2:active, #down2:active {
+  opacity: 0.9;
+}
+
+#scaled-img {
+	height: 70%;
+	width: auto;
+  opacity: 0.75;
+}
+
+#scaled-img:hover {
+	cursor: pointer;
+  transition-duration: 500ms;
+  opacity: 1;
+}
+
+#buttons img {
+  width: 60%;
+  height: auto;
+}
+
+#name {
+  transition-duration: 0.25s;
+  color: #702283;
+  cursor: pointer;
+}
+
+#name:hover {
+  opacity: 0.5;
+}
+
+#song_description {
+  width: 50%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  transform: translate(22%, 90%);
+}
+
+#text_content {
+  position: block;
+  margin-left: 60px;
+  line-height: 8px;
+  transform: translateY(8%);
+}
+
+#lyrics {
+  margin-top: 64px;
+  position: absolute;
+  font-size: 20px;
+  word-wrap: break-word;
+  top: 0%;
+  left: 53%;
+  line-height: 1.75;
+}

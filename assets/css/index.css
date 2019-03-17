@@ -156,5 +156,116 @@ body, html {
 #rest {
 	height: auto;
 	width: 100%;
-	background: #fff;
+}
+
+#hits-grid {
+	position: relative;
+	width: 56%;
+	height: 900px;
+	/*border: solid #702283;*/
+	margin: 40px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 200px;
+	/*border: solid #000;*/
+	background: #EAEAEA;
+}
+
+.album-box {
+	height: 180px;
+	width: 140px;
+	background: #FDFCFD;
+	border: 1px groove #D5D5D5;
+}
+
+.album-box div {
+	position: relative;
+	border: none;
+}
+
+.album {
+	position: absolute;
+	height: 140px;
+	width: 140px;
+	border: none;
+}
+
+.album-info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 140px;
+	width: 140px;
+	opacity: 0;
+}
+
+.album-text {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.album-text a {
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+}
+
+.album-text a:hover {
+	font-weight: 800;
+	color: #702283;
+	transition-duration: 400ms;
+}
+
+.album-info:hover {
+	opacity: .9;
+	background: #FDFCFD;
+	transition-duration: 400ms;
+}
+
+.name-box {
+	position: relative;
+	width: 140px;
+	height: 40px;
+}
+
+.artist-name {
+	padding: 13px;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.artist-name a {
+	color: #000;
+	text-decoration: none;
+}
+
+.artist-name a:hover {
+	font-weight: 800;
+	color: #D3CCD5;
+	transition-duration: 400ms;
+}
+
+#footer {
+	width: 100%;
+	height: auto;
+	padding: 100px 0px 40px 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+#footer em {
+	font-weight: 900;
 }

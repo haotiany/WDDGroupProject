@@ -1,0 +1,201 @@
+body, html {
+    font-family: 'Raleway';
+	position: relative;
+    background: #EAEAEA;
+    margin: 0px;
+}
+
+.container {
+	width: 100%;
+    margin: auto;
+}
+
+.mainhead {
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+
+.decoration {
+    z-index: 2;
+    height: 5px;
+    width: 100%;
+    background-color: #702283;
+    position: fixed;
+}
+
+#navbar {
+	z-index: 2;
+	top: 5px;
+    color:black;
+    background-color:white;
+    height: 45px;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#scaled-logo {
+    height: 13%;
+	width: 13%;
+	cursor: pointer;
+}
+
+#brand:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#logo {
+    float: left;
+    margin-left: 100px;
+}
+#rightside {
+    float: right;
+    margin-right: 100px;
+    font-size: 15px;
+    transform: translateY(12px)
+}
+
+#splash {
+    position: absolute;
+    top: 60px;
+    height: 380px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#artistimage {
+    transform: translateY(-80px);
+    height: 190%;
+    width: 100%;   
+}
+
+#artistname {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.headings {
+    margin-left: 5px;
+    padding: 0px 0px 30px 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #702283;    
+}
+
+.rows {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagecontainer {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 10%;
+    box-shadow: 5px 5px 4px rgba(0,0,0,0.12);
+}
+
+.albumimage {
+    width: 150px;
+    height: 150px;
+}
+
+#albumlisting {
+    position: absolute;
+    margin-left: 150px;
+    top: 480px;
+    bottom: 80%;
+}
+
+.listing {
+    transform: translateY(-15px);
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.albumyear {
+    padding: 0px 0px 5px 0px;
+    font-size: 15px;
+    color: grey;
+}
+.albumname {
+    font-size: 25px;
+}
+
+table {
+    margin-top: 10px;
+    width: 100%;
+}
+th, td {
+    border-bottom: 0.5px solid #702283;
+}
+
+td{
+    padding: 10px 800px 10px 10px;
+}
+
+td:hover{
+    background-color: #702283;
+    color: white;
+    opacity: 0.5;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#topsong{
+    border-top: 2px solid #702283 ;
+}
+
+#hidden1, #hidden2, #hidden3{
+    display: none;
+    margin-top: 0px;
+}
+
+
+.line {
+    border-style: solid;
+    border-width: 0.5px;
+    color: #702283;
+} 
+
+#button1, #button2, #button3 {
+    background-color: #EAEAEA;
+    border: solid;
+    color: #702283;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Raleway';
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 60px;
+}
+
+#button:hover {
+    background-color: #702283;
+    color: #EAEAEA;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1), 0 10px 30px 0 rgba(0,0,0,0.1);
+}
+.othersonglisting{
+    position: absolute;
+    margin-left: 150px;
+    top: 1580px;
+}
