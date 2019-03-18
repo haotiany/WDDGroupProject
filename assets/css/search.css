@@ -69,12 +69,18 @@ body:not(#topbar) {
 	top: 50%;
 	transform: translate(255%, -9%);
 	opacity: .5;
+  transition: opacity 160s ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
 }
 
 #searchImg:hover {
 	opacity: .8;
 	cursor: pointer;
 	transition-duration: 500ms;
+  transition: opacity 160s ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
 }
 
 #everything {
