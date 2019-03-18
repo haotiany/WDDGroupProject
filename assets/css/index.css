@@ -1,0 +1,271 @@
+body, html {
+	margin: 0px;
+	font-family: "Raleway";
+	background: #EAEAEA;
+}
+
+#initial-screen {
+	height: 100vh;
+	width: 100vw;
+	padding: 20px;
+}
+
+#topnav {
+	height: 60px;
+	position: fixed;
+	width: 100%;
+	/* background: #ffff; */
+}
+
+#logo {
+	float: left;
+	padding: 0px 10px;
+}
+
+#scaled-logo {
+	height: 15%;
+	width: 15%;
+	cursor: pointer;
+}
+
+#contact {
+	float: right;
+	padding: 10px 50px;
+	font-size: 15px;
+}
+
+#contact:hover {
+	cursor: pointer;
+	opacity: 0.6;
+	transition-duration: 400ms;
+}
+
+#follow {
+	position: fixed;
+	top: 20%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	width: 30px;
+	justify-content: center;
+	align-items: center;
+	/*background: #fff;*/
+}
+
+.follow-child {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 30px;
+	/*border: solid #D5D5D5;*/
+	margin: 15px;
+}
+
+.scaled-follow {
+	height: 70%;
+	width: auto;
+}
+
+.scaled-follow:hover {
+	cursor: pointer;
+	transition-duration: 500ms;
+	opacity: .7;
+	transform: scale(1.2);
+}
+
+#content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-60%) translateX(-50%);
+	height: 200px;
+	width: 700px;
+	/*background: #fff;*/
+}
+
+#title {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 3%;
+	font-size: 42px;
+	font-weight: 300;
+	float: left;
+	font-family: 'Fredericka the Great';
+}
+
+#title em {
+	font-style: normal;
+	color: #702283;
+}
+
+#content input[type=text] {
+	height: 50px;
+	width: 450px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 30%;
+	float: left;
+	background: #fff;
+	border: 2px groove #D5D5D5;
+	opacity: 0.5;
+	padding: 0 10px;
+	font-style: italic;
+	font-size: 16px;
+	outline: none;
+}
+
+#content input[type=text]:focus {
+	border: 3px groove #C6A1D0;
+	font-style: normal;
+}
+
+#scroll-more-prompt {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 60px;
+	width: 400px;
+	/*background: #ffff;*/
+}
+
+#prompt-text {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#arrow {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-8%);
+	top: 40%;
+	opacity: .6;
+}
+
+#scaled-arrow {
+	height: 16%;
+	width: 16%;
+}
+
+#rest {
+	height: auto;
+	width: 100%;
+}
+
+#hits-grid {
+	position: relative;
+	width: 56%;
+	height: 900px;
+	/*border: solid #702283;*/
+	margin: 40px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 200px;
+	/*border: solid #000;*/
+	background: #EAEAEA;
+}
+
+.album-box {
+	height: 180px;
+	width: 140px;
+	background: #FDFCFD;
+	border: 1px groove #D5D5D5;
+}
+
+.album-box div {
+	position: relative;
+	border: none;
+}
+
+.album {
+	position: absolute;
+	height: 140px;
+	width: 140px;
+	border: none;
+}
+
+.album-info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 140px;
+	width: 140px;
+	opacity: 0;
+}
+
+.album-text {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.album-text a {
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+}
+
+.album-text a:hover {
+	font-weight: 800;
+	color: #702283;
+	transition-duration: 400ms;
+}
+
+.album-info:hover {
+	opacity: .9;
+	background: #FDFCFD;
+	transition-duration: 400ms;
+}
+
+.name-box {
+	position: relative;
+	width: 140px;
+	height: 40px;
+}
+
+.artist-name {
+	padding: 13px;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.artist-name a {
+	color: #000;
+	text-decoration: none;
+}
+
+.artist-name a:hover {
+	font-weight: 800;
+	color: #D3CCD5;
+	transition-duration: 400ms;
+}
+
+#footer {
+	width: 100%;
+	height: auto;
+	padding: 100px 0px 40px 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+#footer em {
+	font-weight: 900;
+}
