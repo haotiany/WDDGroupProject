@@ -32,12 +32,17 @@ body, html {
 	float: right;
 	padding: 10px 50px;
 	font-size: 15px;
+	transition: opacity 160s ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
 }
 
 #contact:hover {
 	cursor: pointer;
 	opacity: 0.6;
-	transition-duration: 400ms;
+	transition: opacity 160s ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
 }
 
 #follow {
@@ -114,13 +119,14 @@ body, html {
 	border: 2px groove #D5D5D5;
 	opacity: 0.5;
 	padding: 0 10px;
-	font-style: italic;
 	font-size: 16px;
 	outline: none;
+	border-radius: 12px;
+	transition-duration: 200ms;
 }
 
 #content input[type=text]:focus {
-	border: 3px groove #C6A1D0;
+	border: 2px groove #C6A1D0;
 	font-style: normal;
 }
 
@@ -130,14 +136,19 @@ body, html {
 	width: auto;
 	left: 91%;
 	top: 50%;
-	transform: translateY(-50%);
+	transform: translate(50%, -50%);
 	opacity: .5;
+	transition: opacity 160s ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
 }
 
 #search:hover {
 	opacity: .8;
 	cursor: pointer;
-	transition-duration: 500ms;
+	transition: opacity 160s ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
 }
 
 #scroll-more-prompt {
