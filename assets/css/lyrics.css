@@ -18,12 +18,14 @@ body, html {
 	position: fixed;
 	width: 100%;
   background: #EAEAEA;
+  z-index: 1000000;
+  top: 0px;
 }
 
 #logo {
   float: left;
 	padding: 0px 10px;
-  transform: translate(3.25%, 22%);
+  transform: translate(3.25%, 37%);
 }
 
 #scaled-logo {
@@ -32,17 +34,44 @@ body, html {
 	cursor: pointer;
 }
 
-#contact {
+#search input[type=text] {
+  height: 24px;
+	width: 144px;
+	position: absolute;
+	top: 50%;
+	transform: translate(475%, -50%);
+	left: 30%;
 	float: right;
-	padding: 10px 50px;
-	font-size: 15px;
-  transform: translate(6.25%, -4.75%);
+	background: #fff;
+	border: 2px groove #D5D5D5;
+	opacity: 0.5;
+	padding: 0 10px;
+	font-style: italic;
+	font-size: 16px;
+	outline: none;
+  border-radius: 50px;
+  transition-duration: 200ms;
 }
 
-#contact:hover {
+#search input[type=text]:focus {
+	border: 2px groove #C6A1D0;
+	font-style: normal;
+}
+
+#searchImg {
+	position: absolute;
+	height: 15px;
+	width: auto;
+	left: 91%;
+	top: 50%;
+	transform: translate(415%, -55%);
+	opacity: .5;
+}
+
+#searchImg:hover {
+	opacity: .8;
 	cursor: pointer;
-	opacity: 0.6;
-	transition-duration: 400ms;
+	transition-duration: 500ms;
 }
 
 #album_cover {
@@ -136,6 +165,6 @@ body, html {
   font-size: 20px;
   word-wrap: break-word;
   top: 0%;
-  left: 53%;
+  left: 52%;
   line-height: 1.75;
 }
