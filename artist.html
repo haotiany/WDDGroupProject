@@ -26,7 +26,6 @@
 						</a>
 					</div>
 				</div>
-
 			<div id="mainpage">
 				<div id="splash">
 					<img id="artistimage" src="assets/img/a1.png">
@@ -49,19 +48,16 @@
 									<tr><td class="song">It Ain't Me</td></tr>
 									<tr><td class="song">First Time</td></tr>
 								</table>
-								<table id="hidden1">
-									<tr><td class="song">This town</td></tr>
-									<tr><td class="song">You're The best Thing About Me</td></tr>
-								</table>
+								<div id="hidden1">
+									<table>
+										<tr><td class="song">This town</td></tr>
+										<tr><td class="song">You're The best Thing About Me</td></tr>
+									</table>	
+								</div>
 								<button id="button1" onclick="myFunction1()">SHOW MORE</button>
 							</div>
-<<<<<<< HEAD
 						</div>	
 					</div> 
-=======
-						</div>
-					</div>
->>>>>>> 907c141b02b97e747f004769ffed7d789ad277be
 					<div class="rows">
 						<div class="imagecontainer"><img class="albumimage" src="assets/img/a3.png"></div>
 						<div class="listing">
@@ -75,13 +71,15 @@
 									<tr><td class="song">Never Let You Go</td></tr>
 									<tr><td class="song">Sunrise</td></tr>
 								</table>
-								<table id="hidden2">
-									<tr><td class="song">Riding Shotgun</td></tr>
-									<tr><td class="song">Stranger Things</td></tr>
-									<tr><td class="song">With You</td></tr>
-									<tr><td class="song">Permanent</td></tr>
-									<tr><td class="song">I See You</td></tr>
-								</table>
+								<div id="hidden2">
+									<table>
+										<tr><td class="song">Riding Shotgun</td></tr>
+										<tr><td class="song">Stranger Things</td></tr>
+										<tr><td class="song">With You</td></tr>
+										<tr><td class="song">Permanent</td></tr>
+										<tr><td class="song">I See You</td></tr>
+									</table>
+								</div>
 								<button id="button2" onclick="myFunction2()">SHOW MORE</button>
 							</div>
 						</div>
@@ -99,11 +97,13 @@
 									<tr><td class="song">Fiction</td></tr>
 									<tr><td class="song">Raging</td></tr>
 								</table>
-								<table id="hidden3">
-									<tr><td class="song">Firestone</td></tr>
-									<tr><td class="song">Happy Birthday</td></tr>
-									<tr><td class="song">I'm In Love</td></tr>
-								</table>
+								<div id="hidden3">
+									<table>
+										<tr><td class="song">Firestone</td></tr>
+										<tr><td class="song">Happy Birthday</td></tr>
+										<tr><td class="song">I'm In Love</td></tr>
+									</table>
+								</div>
 								<button id="button3" onclick="myFunction3()">SHOW MORE</button>
 							</div>
 						</div>
@@ -139,7 +139,6 @@
 					</div>
 				</div>
 			</div>
-			<div id="decoration2"></div> == 0$
 			<div id="endbar">
 				<div id="footer">
 					All lyrics are property and copyright of their owners. All lyrics provided for educational purposes and personal use only.<br>
@@ -149,7 +148,7 @@
 		</div>
 		<script>
 			function myFunction1() {
-				var x = document.getElementsById("hidden1"), y = document.getElementById("button1");
+				var x = document.getElementById("hidden1"), y = document.getElementById("button1")
 				if (x.style.display === "none") {
 				x.style.display = "block";
 				y.style.display = "none";

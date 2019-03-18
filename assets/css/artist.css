@@ -185,9 +185,9 @@ a:hover{
     font-size: 25px;
 }
 
-table {
+table{
     margin-top: 10px;
-    width: 800px;
+    width: 950px;
     text-align: left;
 }
 
@@ -196,6 +196,8 @@ table {
     padding: 10px 0px 10px 10px;
     border-right: 1px solid #EAEAEA;
     border-bottom: 0.5px solid #702283;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     border-collapse: collapse;
     text-align: left;
 }
@@ -216,7 +218,7 @@ td:hover{
 
 #hidden1, #hidden2, #hidden3{
     display: none;
-    margin-top: 0px;
+    margin-top: -10px;
 }
 
 #button1, #button2, #button3 {
@@ -260,7 +262,7 @@ td:hover{
 }
 
 .othersong {
-    padding: 10px 600px 10px 0px;
+    padding: 10px 0px 10px 0px;
     border-bottom: 0.5px solid #702283;
     display: flex;
     flex-direction: row;
@@ -271,9 +273,11 @@ td:hover{
     align-self: center;
 }
 
-#ostable {
-    margin-right: 100px;
+table#ostable{
+    width: 1150px;
+
 }
+
 
 .spcontainer{
     height: 70px;
@@ -298,7 +302,7 @@ td:hover{
     display: flex;
     justify-content: center;
     padding: 5px;
-    top: 2490px;
+    top: 2500px;
 }
 
 #footer {
@@ -311,9 +315,4 @@ td:hover{
 
 #footer em {
 	font-weight: 900;
-}
-
-.thesongs{
-    margin-right: 100px;
-
 }
