@@ -119,6 +119,7 @@ body, html {
 	border: 2px groove #D5D5D5;
 	opacity: 0.5;
 	padding: 0 10px;
+	font-style: italic;
 	font-size: 16px;
 	outline: none;
 	border-radius: 12px;
