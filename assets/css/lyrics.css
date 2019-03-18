@@ -49,7 +49,7 @@ body, html {
 	width: 144px;
 	position: absolute;
 	top: 50%;
-	transform: translate(475%, -50%);
+	transform: translate(475%, -60%);
 	left: 30%;
 	float: right;
 	background: #fff;
@@ -74,7 +74,7 @@ body, html {
 	width: auto;
 	left: 91%;
 	top: 50%;
-	transform: translate(415%, -55%);
+	transform: translate(415%, -72%);
 	opacity: .5;
   transition: opacity 160s ease-in-out;
   -moz-transition: opacity 160ms ease-in-out;
