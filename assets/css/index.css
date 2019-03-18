@@ -32,12 +32,17 @@ body, html {
 	float: right;
 	padding: 10px 50px;
 	font-size: 15px;
+	transition: opacity 160s ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
 }
 
 #contact:hover {
 	cursor: pointer;
 	opacity: 0.6;
-	transition-duration: 400ms;
+	transition: opacity 160s ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
 }
 
 #follow {
@@ -117,11 +122,34 @@ body, html {
 	font-style: italic;
 	font-size: 16px;
 	outline: none;
+	border-radius: 12px;
+	transition-duration: 200ms;
 }
 
 #content input[type=text]:focus {
-	border: 3px groove #C6A1D0;
+	border: 2px groove #C6A1D0;
 	font-style: normal;
+}
+
+#search {
+	position: absolute;
+	height: 20px;
+	width: auto;
+	left: 91%;
+	top: 50%;
+	transform: translate(50%, -50%);
+	opacity: .5;
+	transition: opacity 160s ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
+}
+
+#search:hover {
+	opacity: .8;
+	cursor: pointer;
+	transition: opacity 160s ease-in-out;
+  -moz-transition: opacity 160ms ease-in-out;
+  -webkit-transition: opacity 160ms ease-in-out;
 }
 
 #scroll-more-prompt {
@@ -131,7 +159,6 @@ body, html {
 	transform: translateX(-50%);
 	height: 60px;
 	width: 400px;
-	/*background: #ffff;*/
 }
 
 #prompt-text {
@@ -183,7 +210,8 @@ body, html {
 	height: 180px;
 	width: 140px;
 	background: #FDFCFD;
-	border: 1px groove #D5D5D5;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .album-box div {
@@ -195,7 +223,8 @@ body, html {
 	position: absolute;
 	height: 140px;
 	width: 140px;
-	border: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 .album-info {
@@ -205,6 +234,11 @@ body, html {
 	height: 140px;
 	width: 140px;
 	opacity: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	transition: opacity 160ms ease-in-out;
+    -moz-transition: opacity 160ms ease-in-out;
+    -webkit-transition: opacity 160ms ease-in-out;
 }
 
 .album-text {
@@ -213,11 +247,10 @@ body, html {
 	transform: translateY(-50%);
 	padding: 30px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 .album-text a {
-	font-size: 12px;
 	color: #000;
 	text-decoration: none;
 }
@@ -232,6 +265,9 @@ body, html {
 	opacity: .9;
 	background: #FDFCFD;
 	transition-duration: 400ms;
+	transition: opacity 160ms ease-in-out;
+    -moz-transition: opacity 160ms ease-in-out;
+    -webkit-transition: opacity 160ms ease-in-out;
 }
 
 .name-box {
@@ -241,9 +277,11 @@ body, html {
 }
 
 .artist-name {
-	padding: 13px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 	text-align: center;
-	font-size: 14px;
+	font-size: 10px;
 	text-transform: uppercase;
 }
 
