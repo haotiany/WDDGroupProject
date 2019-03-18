@@ -175,3 +175,15 @@ body, html {
 #title {
   font-size: 14px;
 }
+
+#footer {
+	width: 100%;
+	height: auto;
+	padding: 100px 0px 40px 0px;
+	text-align: center;
+	font-size: 13px;
+}
+
+#footer em {
+	font-weight: 900;
+}
