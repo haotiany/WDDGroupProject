@@ -55,7 +55,6 @@ body, html {
 
 #search input[type=text]:focus {
 	border: 2px groove #C6A1D0;
-	font-style: normal;
 }
 
 #searchImg {
