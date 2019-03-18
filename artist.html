@@ -44,19 +44,17 @@
 							<div class="thesongs">
 								<table>
 									<a href="lyrics.html"><tr><td id="topsong" class="song"><a href="lyrics.html">Stargazing</td></tr></a>
-									<tr>
-										<td class="song">It Ain't Me</td>
-									</tr>
+									<tr><td class="song">It Ain't Me</td></tr>
 									<tr><td class="song">First Time</td></tr>
 								</table>
 								<table id="hidden1">
 									<tr><td class="song">This town</td></tr>
-									<tr><td class="song">This </td></tr>
+									<tr><td class="song">You're The best Thing About Me</td></tr>
 								</table>
 								<button id="button1" onclick="myFunction1()">SHOW MORE</button>
 							</div>
 						</div>	
-					</div>
+					</div> 
 					<div class="rows">
 						<div class="imagecontainer"><img class="albumimage" src="assets/img/a3.png"></div>
 						<div class="listing">
@@ -65,7 +63,7 @@
 								<div class="albumname">Kids in Love</div>
 							</div>
 							<div class="thesongs">
-								<table>
+								<table >
 									<tr><td id="topsong" class="song">Kids In Love</td></tr>
 									<tr><td class="song">Never Let You Go</td></tr>
 									<tr><td class="song">Sunrise</td></tr>
@@ -89,7 +87,7 @@
 								<div class="albumname">Cloud Nine</div>
 							</div>
 							<div class="thesongs">
-								<table>
+								<table >
 									<tr><td id="topsong" class="song">Stole The Show</td></tr>
 									<tr><td class="song">Fiction</td></tr>
 									<tr><td class="song">Raging</td></tr>
@@ -144,7 +142,7 @@
 		</div>
 		<script>
 			function myFunction1() {
-				var x = document.getElementById("hidden1"), y = document.getElementById("button1");
+				var x = document.getElementsById("hidden1"), y = document.getElementById("button1");
 				if (x.style.display === "none") {
 				x.style.display = "block";
 				y.style.display = "none";

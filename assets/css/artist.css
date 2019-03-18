@@ -186,12 +186,13 @@ a:hover{
 
 table {
     margin-top: 10px;
-    width: 100%;
+    width: 800px;
     text-align: left;
 }
 
+
 .song {
-    padding: 10px 750px 10px 10px;
+    padding: 10px 0px 10px 10px;
     border-right: 1px solid #EAEAEA;
     border-bottom: 0.5px solid #702283;
     border-collapse: collapse;
