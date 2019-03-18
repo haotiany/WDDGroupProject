@@ -187,12 +187,15 @@ a:hover{
 table {
     margin-top: 10px;
     width: 100%;
+    text-align: left;
 }
 
 .song {
     padding: 10px 800px 10px 10px;
+    border-right: 1px solid #EAEAEA;
     border-bottom: 0.5px solid #702283;
     border-collapse: collapse;
+    text-align: left;
 }
 
 
@@ -281,13 +284,13 @@ td:hover{
 
 #endbar{
     position: relative;
-    background-color: #702283;
-    color: white;
+    background-color :#EAEAEA;
+    color:black;
     opacity: 0.5;
     display: flex;
     justify-content: center;
-    padding: 10px;
-    top: 2500px;
+    padding: 5px;
+    top: 2490px;
 }
 
 #footer {
