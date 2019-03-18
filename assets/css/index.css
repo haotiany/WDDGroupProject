@@ -124,6 +124,22 @@ body, html {
 	font-style: normal;
 }
 
+#search {
+	position: absolute;
+	height: 20px;
+	width: auto;
+	left: 91%;
+	top: 50%;
+	transform: translateY(-50%);
+	opacity: .5;
+}
+
+#search:hover {
+	opacity: .8;
+	cursor: pointer;
+	transition-duration: 500ms;
+}
+
 #scroll-more-prompt {
 	position: absolute;
 	top: 85%;
@@ -131,7 +147,6 @@ body, html {
 	transform: translateX(-50%);
 	height: 60px;
 	width: 400px;
-	/*background: #ffff;*/
 }
 
 #prompt-text {
@@ -183,7 +198,8 @@ body, html {
 	height: 180px;
 	width: 140px;
 	background: #FDFCFD;
-	border: 1px groove #D5D5D5;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .album-box div {
@@ -195,7 +211,8 @@ body, html {
 	position: absolute;
 	height: 140px;
 	width: 140px;
-	border: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 .album-info {
@@ -205,6 +222,11 @@ body, html {
 	height: 140px;
 	width: 140px;
 	opacity: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	transition: opacity 160ms ease-in-out;
+    -moz-transition: opacity 160ms ease-in-out;
+    -webkit-transition: opacity 160ms ease-in-out;
 }
 
 .album-text {
@@ -232,6 +254,9 @@ body, html {
 	opacity: .9;
 	background: #FDFCFD;
 	transition-duration: 400ms;
+	transition: opacity 160ms ease-in-out;
+    -moz-transition: opacity 160ms ease-in-out;
+    -webkit-transition: opacity 160ms ease-in-out;
 }
 
 .name-box {
